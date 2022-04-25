@@ -1,0 +1,199 @@
+.twitter--btn {
+  border-radius: 4px;
+  padding: 16px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  background-color: #1da1f2;
+  border: none;
+  color: white;
+}
+
+.twitter--btn p {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.app--body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Inter", sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body--header {
+  padding: 0 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #fbf8f3;
+}
+
+.body--header nav {
+  width: 100%;
+  max-width: 1200px;
+  padding: 42px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body--header nav .nav--logo {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.body--header nav .nav--logo a {
+  color: #1da1f2;
+}
+
+.body--header nav a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #828282;
+}
+
+.body--header nav .nav--menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.body--header .header--content {
+  max-width: 1220px;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.body--header .header--content span {
+  color: #1f7898;
+  font-weight: bold;
+}
+
+.body--header .header--content .section-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 13.2%;
+  width: 60%;
+}
+
+.body--header .header--content .section-first .header--content-title p {
+  font-size: 56px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.body--header .header--content .section-first .header--content-info {
+  margin-bottom: 16px;
+}
+
+.body--header .header--content .section-first .header--content-info p {
+  color: #828282;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+}
+
+.body--header .header--content .section-first .header--content-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+}
+
+.body--header .header--content .section-first .header--content-btn a {
+  text-decoration: none;
+}
+
+.body--header .header--content .header--conntent-footer {
+  margin-bottom: 12px;
+  height: 50px;
+}
+
+.body--header .header--content .header--conntent-footer img {
+  margin-right: -25px;
+  -webkit-transition: margin-right 0.5s, margin-top 0.2s;
+  transition: margin-right 0.5s, margin-top 0.2s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.body--header .header--content .header--conntent-footer img:hover {
+  margin-right: -5px;
+  margin-top: 2px;
+  height: 100%;
+}
+
+.body--header .header--content .header-content-subinfo {
+  color: #828282;
+  padding-right: 30%;
+}
+
+.body--header .header--content .section-second {
+  width: 40%;
+  padding-bottom: 40px;
+  text-align: end;
+}
+
+.body--header .header--content .section-second img {
+  width: 85%;
+}
+/*# sourceMappingURL=bodyHeader.css.map */

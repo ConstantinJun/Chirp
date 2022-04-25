@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chirp</title>
-    <link rel="stylesheet" href="/src/style/style.css" />
+    <link rel="stylesheet" href="./src/style/style.css" />
   </head>
   <body>
     <div class="app">
@@ -17,36 +17,24 @@
               <a href="" title="Home">
                 <p>Home</p>
               </a>
-
               <a href="" title="Pricing">
                 <p>Pricing</p>
               </a>
-
               <a href="" title="FAQ">
                 <p>FAQ</p>
               </a>
-
-              <div class="home-btn">
-                <button>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0)">
-                        <path d="M24 4.55705C23.117 4.94905 22.168 5.21305 21.172 5.33205C22.189 4.72305 22.97 3.75805 23.337 2.60805C22.386 3.17205 21.332 3.58205 20.21 3.80305C19.313 2.84605 18.032 2.24805 16.616 2.24805C13.437 2.24805 11.101 5.21405 11.819 8.29305C7.728 8.08805 4.1 6.12805 1.671 3.14905C0.381 5.36205 1.002 8.25705 3.194 9.72305C2.388 9.69705 1.628 9.47605 0.965 9.10705C0.911 11.388 2.546 13.522 4.914 13.997C4.221 14.185 3.462 14.229 2.69 14.081C3.316 16.037 5.134 17.46 7.29 17.5C5.22 19.123 2.612 19.848 0 19.54C2.179 20.937 4.768 21.752 7.548 21.752C16.69 21.752 21.855 14.031 21.543 7.10605C22.505 6.41105 23.34 5.54405 24 4.55705Z" fill="#00ACEE"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0">
-                        <rect width="24" height="24" fill="white"/>
-                        </clipPath>
-                        </defs>
-                    </svg>
-                  <p>Sign in Twitter</p>
-                </button>
+                <button class="twitter--btn">
+                  <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 2.55699C23.117 2.94899 22.168 3.21299 21.172 3.33199C22.189 2.72299 22.97 1.75799 23.337 0.607986C22.386 1.17199 21.332 1.58199 20.21 1.80299C19.313 0.845986 18.032 0.247986 16.616 0.247986C13.437 0.247986 11.101 3.21399 11.819 6.29299C7.728 6.08799 4.1 4.12799 1.671 1.14899C0.381 3.36199 1.002 6.25699 3.194 7.72299C2.388 7.69699 1.628 7.47599 0.965 7.10699C0.911 9.38799 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10599C22.505 4.41099 23.34 3.54399 24 2.55699Z" fill="white"/>
+                    </svg>                    
+                  <p>Sign in with Twitter</p>
               </div>
-            </div>
-          </nav>
-
+              </nav>
+          
           <div class="header--content">
+            <div class="section-first">
             <div class="header--content-title">
-              <h5>Twitter analytics taken to a whole new level.</h5>
+              <p>Twitter analytics taken to a whole new level.</p>
             </div>
             <div class="header--content-info">
               <p>
@@ -56,44 +44,45 @@
               </p>
             </div>
             <div class="header--content-btn">
-                <button>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0)">
-                        <path d="M24 4.55705C23.117 4.94905 22.168 5.21305 21.172 5.33205C22.189 4.72305 22.97 3.75805 23.337 2.60805C22.386 3.17205 21.332 3.58205 20.21 3.80305C19.313 2.84605 18.032 2.24805 16.616 2.24805C13.437 2.24805 11.101 5.21405 11.819 8.29305C7.728 8.08805 4.1 6.12805 1.671 3.14905C0.381 5.36205 1.002 8.25705 3.194 9.72305C2.388 9.69705 1.628 9.47605 0.965 9.10705C0.911 11.388 2.546 13.522 4.914 13.997C4.221 14.185 3.462 14.229 2.69 14.081C3.316 16.037 5.134 17.46 7.29 17.5C5.22 19.123 2.612 19.848 0 19.54C2.179 20.937 4.768 21.752 7.548 21.752C16.69 21.752 21.855 14.031 21.543 7.10605C22.505 6.41105 23.34 5.54405 24 4.55705Z" fill="#00ACEE"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0">
-                        <rect width="24" height="24" fill="white"/>
-                        </clipPath>
-                        </defs>
-                    </svg>
-                  <p>Sign in Twitter</p>
-                </button>
-              <p>Learn More</p>
+              <button class="twitter--btn" >
+                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24 2.55699C23.117 2.94899 22.168 3.21299 21.172 3.33199C22.189 2.72299 22.97 1.75799 23.337 0.607986C22.386 1.17199 21.332 1.58199 20.21 1.80299C19.313 0.845986 18.032 0.247986 16.616 0.247986C13.437 0.247986 11.101 3.21399 11.819 6.29299C7.728 6.08799 4.1 4.12799 1.671 1.14899C0.381 3.36199 1.002 6.25699 3.194 7.72299C2.388 7.69699 1.628 7.47599 0.965 7.10699C0.911 9.38799 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10599C22.505 4.41099 23.34 3.54399 24 2.55699Z" fill="white"/>
+                  </svg>                  
+                <p>Sign in with Twitter</p>
+              </button>
+              <a href="">
+                <span>Learn More -></span>
+              </a>
             </div>
             <div class="header--conntent-footer">
-               <img src="./Assets/userAvatar01.svg" alt="error">
-               <img src="./Assets/userAvatar02.svg" alt="error">
-               <img src="./Assets/userAvatar03.svg" alt="error">
-               <img src="./Assets/userAvatar04.svg" alt="error">
-               <img src="./Assets/userAvatar05.svg" alt="error">
-               <img src="./Assets/userAvatar06.svg" alt="error">
-               <img src="./Assets/userAvatar07.svg" alt="error">
-               <img src="./Assets/userAvatar08.svg" alt="error">
-               <img src="./Assets/userAvatar09.svg" alt="error">
+              <img src="./Assets/userAvatar01.svg" alt="error" class="index1"/>
+              <img src="./Assets/userAvatar02.svg" alt="error" class="index2"/>
+              <img src="./Assets/userAvatar03.svg" alt="error" class="index3"/>
+              <img src="./Assets/userAvatar04.svg" alt="error" class="index4"/>
+              <img src="./Assets/userAvatar05.svg" alt="error" class="index5"/>
+              <img src="./Assets/userAvatar06.svg" alt="error" class="index6"/>
+              <img src="./Assets/userAvatar07.svg" alt="error" class="index7"/>
+              <img src="./Assets/userAvatar08.svg" alt="error" class="index8"/>
+              <img src="./Assets/userAvatar09.svg" alt="error" class="index9"/>
             </div>
             <div class="header-content-subinfo">
-                <p>
-                    Join 195 others who have analyzed their followers and scheduled 1342 tweets!
-                </p>
+              <p>
+                Join <span>195</span> others who have analyzed their followers and scheduled
+                <span>1342</span> tweets!
+              </p>
             </div>
           </div>
-
-          <div class="header--aplication">
-            <img src="./Assets/Hero Image (Desktop View).png" alt="app">
+        
+          <!-- header aplication -->
+        
+          <div class="section-second">
+            <img src="./Assets/Hero Image (Desktop View).png" alt="app" />
           </div>
         </div>
-        
+        </div>
+
+        <!-- div with feautres -->
+
         <div class="body--content-features">
           <div class="features--title"></div>
           <div class="features--lists">
@@ -103,6 +92,9 @@
             <div class="feature--lists-fourth"></div>
           </div>
         </div>
+
+        <!-- div with customers -->
+
         <div class="body--content-customers">
           <div class="customers--title"></div>
           <div class="customers--lists">
@@ -111,6 +103,9 @@
             <div class="customer--lists-third"></div>
           </div>
         </div>
+
+        <!-- div with price -->
+
         <div class="body--price">
           <div class="price-title">
             <div class="price-subtitle"></div>
@@ -120,6 +115,9 @@
             <div class="price--app-content">
               <div class="content-lists"></div>
             </div>
+
+            <!-- footer -->
+
             <div class="price--app-footer"></div>
           </div>
         </div>
@@ -128,6 +126,7 @@
           <div class="nav--menu"></div>
         </footer>
       </div>
+    </div>
     </div>
   </body>
 </html>

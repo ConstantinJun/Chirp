@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/index.js',
   mode: 'development',
   devServer: {
-    static: './app',
+    static: '/app',
   },
   output: {
     filename: 'main.js',
