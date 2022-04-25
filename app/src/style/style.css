@@ -417,4 +417,361 @@ input[type=button] {
 .body--header .header--content .section-second img {
   width: 85%;
 }
+
+.body--content-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1200px;
+  margin: 50px 0;
+}
+
+.body--content-features .features--title {
+  width: 35%;
+  margin-bottom: 24px;
+}
+
+.body--content-features .features--title p {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.body--content-features .features--lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 24px;
+}
+
+.body--content-features .feature--list {
+  width: 45%;
+  border: 1px solid #c5c5c5;
+  border-radius: 5px;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.body--content-features .feature--list h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.body--content-features .feature--list .list--emoji {
+  font-size: 40px;
+}
+
+.body--content-features .feature--list p {
+  color: #828282;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.body--content-customers {
+  width: 100%;
+  background-color: #d7f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body--content-customers .customers {
+  margin: 50px 0;
+}
+
+.body--content-customers .customers--title {
+  width: 35%;
+  margin-bottom: 40px;
+}
+
+.body--content-customers .customers--title p {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.body--content-customers .customers--lists {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 12px;
+}
+
+.body--content-customers .customers--lists .customer--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 28%;
+}
+
+.body--content-customers .customers--lists .customer--list h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.body--content-customers .customers--lists .customer--list p {
+  color: #828282;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.body--content-customers .customers--lists .customer--info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px;
+}
+
+.body--content-customers .customers--lists .customer--info .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 15px;
+}
+
+.body--content-customers .customers--lists .customer--list-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body--content-customers .customers--lists .customer--list-footer .like-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 13px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body--price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 650px;
+  margin-bottom: 40px;
+}
+
+.body--price .price-title {
+  margin: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body--price .price-title h5 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.body--price .price-title p {
+  color: #828282;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.body--price .price--app {
+  border: 2px solid #ffad23;
+  border-radius: 10px;
+  background-color: #fbf8f3;
+  max-width: 65%;
+  padding: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.body--price .price--app p {
+  color: #828282;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.body--price .price--app span {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.body--price .price--app .content-lists {
+  border-top: 1px solid rgba(46, 44, 44, 0.2);
+  border-bottom: 1px solid rgba(46, 44, 44, 0.2);
+  padding: 24px 0;
+  margin: 14px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.body--price .price--app .content-lists p {
+  font-size: 1rem;
+}
+
+.body--price .price--app .content-lists .content-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 15px;
+}
+
+.body--price .price--app .price--app-btn {
+  width: 100%;
+}
+
+.body--price .price--app .price--app-btn .app-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body--price .price--app .price--app-btn .app-btn p {
+  color: white;
+}
+
+.body--footer {
+  width: 100%;
+  background-color: #d7f5f5;
+}
+
+.body--footer footer {
+  max-width: 1220px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.body--footer footer a {
+  text-decoration: none;
+}
+
+.body--footer footer .nav--logo a {
+  font-style: italic;
+  font-weight: 600;
+  color: #1da1f2;
+}
+
+.body--footer footer .nav--menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 24px;
+}
+
+.body--footer footer .nav--menu p {
+  font-weight: 600;
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
