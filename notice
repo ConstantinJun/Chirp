@@ -1,3 +1,6 @@
 1).header--content-footer : In loc margin la hover sa folosesc trasnformY
 2)Sa separez totate in diferite modulde de scss
 3)Sa structurez styluri care des se aplica in classuri aparte
+
+
+work with with width section second and img with icons (it`s didn`t responsiv)
