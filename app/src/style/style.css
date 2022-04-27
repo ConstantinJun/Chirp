@@ -339,6 +339,9 @@ input[type=button] {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .body--header .header--content span {
@@ -354,8 +357,8 @@ input[type=button] {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-right: 13.2%;
-  width: 60%;
+  width: 48%;
+  padding-top: 40px;
 }
 
 .body--header .header--content .section-first .header--content-title p {
@@ -419,6 +422,7 @@ input[type=button] {
 }
 
 .body--header .header--content .section-second {
+  max-height: 750px;
   max-width: 45%;
 }
 
@@ -428,6 +432,7 @@ input[type=button] {
 
 .body--header .header--content .section-second img {
   width: 100%;
+  max-height: 100%;
 }
 
 .body--content-features {
@@ -462,11 +467,11 @@ input[type=button] {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 24px;
+  gap: 40px;
 }
 
 .body--content-features .feature--list {
-  width: 45%;
+  width: 48.2%;
   border: 1px solid #c5c5c5;
   border-radius: 5px;
   padding: 25px;
@@ -511,12 +516,14 @@ input[type=button] {
 }
 
 .body--content-customers .customers {
+  max-width: 1200px;
   padding: 50px 0;
 }
 
 .body--content-customers .customers--title {
-  width: 35%;
   margin-bottom: 40px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .body--content-customers .customers--title p {
@@ -536,7 +543,7 @@ input[type=button] {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  gap: 12px;
+  gap: 15px;
 }
 
 .body--content-customers .customers--lists .customer--list {
@@ -550,8 +557,8 @@ input[type=button] {
   gap: 12px;
   background-color: white;
   border-radius: 10px;
-  padding: 20px;
-  width: 28%;
+  padding: 26px 30px 30px 24px;
+  width: 388px;
 }
 
 .body--content-customers .customers--lists .customer--list h5 {
@@ -796,7 +803,7 @@ input[type=button] {
   color: black;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1200px) {
   .body--header {
     padding: 0 20px;
   }
@@ -862,11 +869,16 @@ input[type=button] {
   }
   .body--content-customers {
     padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    overflow-y: scroll;
   }
   .body--content-customers .customers--title {
-    width: 100%;
-  }
-  .body--content-customers .customers--lists .customer--list {
     width: 100%;
   }
   .body--price {
@@ -943,7 +955,7 @@ input[type=button] {
     padding-right: 0;
   }
   .body--header .header--content .section-second {
-    max-width: 100%;
+    max-width: 91%;
   }
   .body--header .header--content .section-second img {
     display: block;

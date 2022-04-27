@@ -83,7 +83,7 @@ $dark-blue-color: #1f7898;
         padding-top: 15px;
         display: flex;
         flex-direction: row;
-
+        justify-content: space-between;
         span {
             color: $dark-blue-color;
             font-weight: bold;
@@ -92,8 +92,8 @@ $dark-blue-color: #1f7898;
         .section-first {
             display: flex;
             flex-direction: column;
-            padding-right: 13.2%;
-            width: 60%;
+            width: 48%;
+            padding-top: 40px;
 
             .header--content-title {
                 p {
@@ -150,12 +150,14 @@ $dark-blue-color: #1f7898;
         }
 
         .section-second {
+            max-height: 750px ;
             max-width: 45%;
             .tablet{
                 display: none;
             }
             img {
                 width: 100%;
+                max-height: 100%;
             }
         }
     }
@@ -181,11 +183,11 @@ $dark-blue-color: #1f7898;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 24px;
+        gap: 40px;
     }
 
     .feature--list {
-        width: 45%;
+        width: 48.2%;
         border: 1px solid #c5c5c5;
         border-radius: 5px;
         padding: 25px;
@@ -218,13 +220,13 @@ $dark-blue-color: #1f7898;
     align-items: center;
 
     .customers {
+        max-width: 1200px;
         padding: 50px 0;
     }
 
     .customers--title {
-        width: 35%;
         margin-bottom: 40px;
-
+        align-self: flex-start;
         p {
             font-size: 36px;
             font-weight: 700;
@@ -236,7 +238,7 @@ $dark-blue-color: #1f7898;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        gap: 12px;
+        gap: 15px;
 
         .customer--list {
             display: flex;
@@ -244,8 +246,8 @@ $dark-blue-color: #1f7898;
             gap: 12px;
             background-color: white;
             border-radius: 10px;
-            padding: 20px;
-            width: 28%;
+            padding: 26px 30px 30px 24px;
+            width: 388px;
 
             h5 {
                 font-size: 18px;
